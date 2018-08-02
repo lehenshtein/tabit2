@@ -171,8 +171,8 @@ body {
 }
         .shadow {
     /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
-    -webkit-filter: drop-shadow( 3px 5px 2px rgba(0, 0, 0, 0.35) ); 
-            filter: drop-shadow( 3px 5px 2px rgba(0, 0, 0, 0.35) );
+    -webkit-filter: drop-shadow( 3px 5px 1px rgba(0, 0, 0, 0.35) ); 
+            filter: drop-shadow( 3px 5px 1px rgba(0, 0, 0, 0.35) );
 }
 /* Heading */
 h1, h2, h3, h4, h5, h6, .site-title {
@@ -1067,7 +1067,7 @@ a.category:hover {
 .no-sidebar .post-full-summary .entry-header,
 .page.no-sidebar .entry-header,
 .page.full-width .entry-header {
-	text-align: center;
+	text-align: left;
 }
 .entry-title {
 	font-size: 2.5rem;
@@ -1887,7 +1887,6 @@ a.comment-edit-link:hover {
 
 /* Footer */
 .site-bottom {
-	border-top: solid 1px #ddd;
 	color: #999;
 	margin-bottom: 28px;
 	margin-top: 30px;
@@ -2332,8 +2331,8 @@ ul.grofile-urls {
     padding: 30px;
     background-color: #fff;
     border-radius: 10px 0 0 10px;
-     width: 94vw;
-    margin: 100px auto 0;
+     width: 100vw;
+    margin: 0px auto 0px;
     -webkit-box-shadow: inset 0 -2px 2px rgba(0,0,0,0.16);
     box-shadow: inset 0 -2px 2px rgba(0,0,0,0.16); 
 }
@@ -2613,7 +2612,19 @@ h3 {
     top: 39px;
     left: 3px;
 }
-
+/*usp -lugin styles*/
 div#user-submitted-posts {
     max-width: none;
+    margin-left: 96px;
+}
+div#user-submitted-posts input[name="user-submitted-title"]{
+    font-size: 16px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+#user-submitted-posts .usp-title, #user-submitted-posts .usp-custom label {
+    font-size: 36px;
+    font-family: 'sf_pro_displaybold';
+    color: var(--text-col);
 }
