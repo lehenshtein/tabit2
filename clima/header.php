@@ -111,7 +111,7 @@
 
 		<?php if ( ! get_theme_mod( 'graphy_hide_navigation' ) ) : ?>
 		<nav id="site-navigation" class="main-navigation">
-           <a href="#" class="ico-block">
+           <a href="http://tabber.online/" class="ico-block">
     <svg class="icon shadow"><use xlink:href="#ico1"></use></svg>
 </a>
             <?php if ( ! get_theme_mod( 'graphy_hide_search' ) ) : ?>

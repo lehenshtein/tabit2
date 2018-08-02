@@ -604,13 +604,13 @@ ul.instagram-pics:after,
 	}
 	.site-branding,
 	.footer-widget-wrapper {
-		max-width: 1120px;
+		max-width: 1768px;
 	}
 	.main-navigation,
 	.header-image,
 	.footer-widget-area,
 	.site-bottom {
-		max-width: 1260px;
+		max-width: 1768px;
 	}
 	.site-branding {
 		position: relative;
